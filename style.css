@@ -1,3 +1,57 @@
 * {
     font-family: Roboto, sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+
+.first,
+.footer {
+    background-color: #1F2937;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links a,
+.sign-up-page p {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-page h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign-up-page button,
+.sign-up-box {
+    background-color: #3882F6 ;
+}
+
+.second h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.third {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
