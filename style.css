@@ -1,15 +1,30 @@
 * {
+    box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+.first,
+.second,
+.third,
+.fourth{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 0;
 }
 
 h1,
 h2,
-h3 {
+h3,
+ul,
+p{
     margin: 0;
 }
 
@@ -54,4 +69,35 @@ h3 {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+}
+
+
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.fourth {
+    justify-content: space-between;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #F9FAF8;
+    font-size: 10px;
 }
