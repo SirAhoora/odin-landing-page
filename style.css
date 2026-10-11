@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     flex: 1 1 0;
-    padding: 40px 80px;
+    padding: 80px;
 }
 
 h1,
@@ -28,6 +28,11 @@ p{
     margin: 0;
 }
 
+button {
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
 
 .first,
 .footer {
@@ -66,6 +71,7 @@ p{
 .sign-up-page button,
 .sign-up-box {
     background-color: #3882F6 ;
+    border-radius: 5px;
 }
 
 .second h2 {
@@ -73,6 +79,7 @@ p{
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 40px ;
 }
 
 .third {
@@ -139,3 +146,29 @@ p{
     flex-flow: column nowrap;
     gap: 8px;
 }
+
+.second {
+    padding: 35px 80px 120px 80px;
+}
+
+.items {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.item {
+    flex: 0 0 150px;
+}
+
+.item img {
+    border: 3px solid #3b82f6;
+    min-height: 150px;
+    border-radius: 15px;
+}
+
+.item p {
+    text-align: center;
+}
+
