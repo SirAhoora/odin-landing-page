@@ -76,13 +76,14 @@ p{
 .header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
 
 }
 
 .header-links {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     align-items: flex-end;
 }
 
