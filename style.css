@@ -88,6 +88,8 @@ button {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    align-items: center;
 }
 
 .header {
@@ -166,9 +168,20 @@ button {
     border: 3px solid #3b82f6;
     min-height: 150px;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .item p {
     text-align: center;
 }
 
+
+.quote {
+    max-width: 800px;
+}
+
+.quoter {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 450px;
+}
